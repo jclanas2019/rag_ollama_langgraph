@@ -1,0 +1,64 @@
+{
+  "archivos": [
+    "escaner.md",
+    "impresora_termica.md",
+    "pinpad.md",
+    "offline.md",
+    "red_fisico.md",
+    "escaner_no_lee.md",
+    "impresora_boleta.md",
+    "impresora_no_imprime.md",
+    "pinpad_no_responde.md",
+    "red_caida.md",
+    "reinicio_pos.md"
+  ],
+  "top_global": [
+    [
+      "pos",
+      46
+    ],
+    [
+      "impresora",
+      26
+    ],
+    [
+      "min",
+      17
+    ],
+    [
+      "red",
+      14
+    ],
+    [
+      "caja",
+      13
+    ],
+    [
+      "tiempo",
+      13
+    ],
+    [
+      "tienda",
+      12
+    ],
+    [
+      "prueba",
+      11
+    ]
+  ],
+  "unique_vocab_top_terms": 59,
+  "llm_enabled": true,
+  "warnings": [],
+  "params": {
+    "top_n": 8,
+    "exts": [
+      ".txt",
+      ".md"
+    ],
+    "recursive": true,
+    "autofill": true,
+    "min_chars_llm": 200,
+    "model": "gemma3:1b",
+    "temperature": 0.2
+  }
+}

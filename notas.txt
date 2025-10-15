@@ -1,0 +1,6 @@
+python langgraph_ollama_gemma3_pipeline.py \
+  --input ./docs --out ./out \
+  --ext .txt,.md \
+  --recursive true \
+  --autofill true \
+  --ollama --model gemma3:1b --temp 0.2 --min-chars 200
